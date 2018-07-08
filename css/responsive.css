@@ -1,0 +1,29 @@
+.container {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-container {
+    width: 100%;
+    order: 0;
+}
+
+.main-container {
+    width: 100%;
+    order: 1;
+}
+
+.footer-container {
+    width: 100%;
+    order: 2;
+}
+
+.map-container {
+    height: 30%;
+}
+
+.restaurant-container {
+    height: 70%;
+}
