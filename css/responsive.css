@@ -41,3 +41,39 @@
     text-align: center;
     margin:auto;
 }
+
+@media screen and (max-width: 1250px) {
+    .container {
+        max-width: 800px;
+    }
+
+    #restaurants-list {
+        padding: 30px 15px 60px;
+    }
+
+}
+
+@media screen and (max-width: 800px ) {
+    .container {
+        max-width: 500px;
+    }
+
+    #restaurants-list {
+        padding: 30px 55px 60px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        max-width: 400px;
+    }
+
+    #restaurants-list {
+        padding: 30px 15px 60px;
+    }
+
+    .filter-options {
+        height: 110px;
+    }
+}
