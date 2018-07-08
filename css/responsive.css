@@ -27,3 +27,14 @@
 .restaurant-container {
     height: 70%;
 }
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.select-boxes {
+    text-align: center;
+    margin:auto;
+}
