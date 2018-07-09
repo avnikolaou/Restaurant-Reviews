@@ -1,9 +1,11 @@
 .container {
-    margin: 25px auto;
+    margin: auto;
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
 }
+
+/* ====================== Home Page ====================== */
 
 .header-container {
     width: 100%;
@@ -41,6 +43,12 @@
     text-align: center;
     margin:auto;
 }
+
+
+/* ====================== Restaurant Page ====================== */
+
+
+/* ====================== Media Queries ====================== */
 
 @media screen and (max-width: 1250px) {
     .container {
