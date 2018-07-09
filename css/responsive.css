@@ -43,19 +43,6 @@
 }
 
 
-/* ====================== Restaurant Page ====================== */
-
-.inside {
-
-}
-
-.inside header {
-
-}
-
-.inside #footer {
-
-}
 /* ====================== Media Queries ====================== */
 
 
@@ -95,7 +82,8 @@
     }
 
     #restaurants-list li {
-        width: 70%;
+        width: 90%;
+        margin: 10px 10px 10px 30px;
     }
 
     .inside #map-container {

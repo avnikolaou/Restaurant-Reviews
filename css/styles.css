@@ -141,9 +141,8 @@ nav h1 a {
     background-color: #fff;
     border: 2px solid #ccc;
     font-family: Arial,sans-serif;
-    margin: 15px;
     min-height: 380px;
-    padding: 0 40px 25px;
+    margin: 10px 10px 10px 10px;
     text-align: left;
     width: 270px;
 }
