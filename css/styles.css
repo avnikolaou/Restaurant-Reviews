@@ -71,7 +71,6 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
 }
 
 /* Display list items side by side */
@@ -142,7 +141,8 @@ nav h1 a {
     border: 2px solid #ccc;
     font-family: Arial,sans-serif;
     min-height: 380px;
-    margin: 10px 10px 10px 10px;
+    margin: auto;
+    padding-top: 10px;
     text-align: left;
     width: 270px;
 }
@@ -189,12 +189,12 @@ nav h1 a {
     z-index: 1000;
 }
 .inside #map-container {
-    background: blue none repeat scroll 0 0;
     height: 87%;
     position: fixed;
     right: 0;
     top: 80px;
     width: 50%;
+    margin-top: 50px;
 }
 .inside #map {
     background-color: #ccc;
