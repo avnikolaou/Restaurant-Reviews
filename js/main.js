@@ -200,6 +200,12 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 
 };
 
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/serviceworker.js").then(() => {
+        console.log('Service Worker Registered');
+    });
+}
+
 /* addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     // Add marker to the map
