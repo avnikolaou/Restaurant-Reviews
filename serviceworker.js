@@ -61,10 +61,7 @@ self.addEventListener('activate', event => {
  */
 
 self.addEventListener('fetch', event => {
-    // Handle query string on /restaurant url
-    const request = event.request.url.includes('/restaurant.html') ? new Request('/restaurant.html') : event.request;
-
     event.respondWith(
-        caches.match(request).then(response => response || fetch(request)),
+        caches.match(event.request, {"ignoreSearch" : true}).then(response => response || fetch(event.request)),
     );
 });
