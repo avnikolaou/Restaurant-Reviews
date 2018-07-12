@@ -50,7 +50,7 @@
     .inside #map-container,
     #restaurant-container,
     #reviews-container {
-        width: 100%;
+        width: 90%;
     }
 
     .inside #map-container {
@@ -94,7 +94,7 @@
 
     #restaurant-container,
     #reviews-container {
-        width: 100%;
+        width: 90%;
         padding: 20px 15px;
     }
 

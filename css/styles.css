@@ -44,7 +44,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     color: #aaa;
     font-size: 8pt;
     letter-spacing: 1px;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -189,7 +190,7 @@ nav h1 a {
     z-index: 1000;
 }
 .inside #map-container {
-    height: 87%;
+    height: 82%;
     position: fixed;
     right: 0;
     top: 80px;
